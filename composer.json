@@ -1,7 +1,7 @@
 {
-  "name": "ulff/cassandra-bundle",
+  "name": "m6web/cassandra-bundle",
   "type" : "symfony-bundle",
-  "description": "Symfony2 bundle on top of datastax/php-driver. Forked from: m6web/cassandra-bundle.",
+  "description": "Symfony2 bundle on top of datastax/php-driver",
   "keywords": ["cassandra", "bundle"],
   "license" : "MIT",
   "authors": [
@@ -26,7 +26,7 @@
     "datastax/php-driver": "dev-master"
   },
   "autoload": {
-    "psr-4": {"Ulff\\CassandraBundle\\": "src/"}
+    "psr-4": {"M6Web\\Bundle\\CassandraBundle\\": "src/"}
   },
   "config": {
     "bin-dir": "bin/"
